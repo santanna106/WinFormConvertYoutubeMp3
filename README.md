@@ -17,7 +17,7 @@ Basicamente o aplicativo contém a interface de um aplicativo de calculadora. A 
 
 
 
-![CalculadoraAndroid](https://user-images.githubusercontent.com/10618397/111066270-d9df8080-849c-11eb-91cb-f5eac19dcc6b.JPG)
+<img width="401" alt="ConvertYoutube" src="https://user-images.githubusercontent.com/10618397/112738159-10a6a380-8f3f-11eb-8240-1155869ce122.png">
 
 
 
