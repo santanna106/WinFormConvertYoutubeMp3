@@ -1,9 +1,5 @@
-﻿using MediaToolkit;
-using MediaToolkit.Model;
-using System;
-using System.IO;
+﻿using System;
 using System.Windows.Forms;
-using VideoLibrary;
 using WinFormConvertYoutubeMp3.service;
 
 namespace WinFormConvertYoutubeMp3
