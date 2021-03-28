@@ -1,19 +1,14 @@
 # WinFormConvertYoutubeMp3
 
-Aplication to Convert youtube to Mp3.
+Aplication to Convert youtube to Mp3. Libraries were used in this project MediaToolkit and VideoLibrary.
 
 
 
 ```termina
-https://github.com/santanna106/CalculadoraAndroidKotlin.git
+https://github.com/santanna106/WinFormConvertYoutubeMp3.git
 ```
 Ou 
 
-Realize o clone através do Android Studio
-
-## Uso
-
-Basicamente o aplicativo contém a interface de um aplicativo de calculadora. A interface é muito simples. Fiquem a vontade para melhora-la
 
 
 
