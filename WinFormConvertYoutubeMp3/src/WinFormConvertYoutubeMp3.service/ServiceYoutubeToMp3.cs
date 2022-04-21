@@ -1,17 +1,19 @@
 ﻿using MediaToolkit;
 using MediaToolkit.Model;
 using System.IO;
+using System.Threading.Tasks;
 using VideoLibrary;
 
 namespace WinFormConvertYoutubeMp3.service
 {
     public class ServiceYoutubeToMp3 : IServiceYoutubeToMp3
     {
-        public void Convert(string url, string dest)
+        public async Task Convert(string url, string dest)
         {
             dest = dest + "\\";
             var youtube = YouTube.Default;
-            var vid = youtube.GetVideo(url);
+            var vid = await youtube.GetVideoAsync(url);
+         
             File.WriteAllBytes(dest + vid.FullName, vid.GetBytes());
 
             var inputFile = new MediaFile { Filename = dest + vid.FullName };
